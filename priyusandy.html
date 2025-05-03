@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SAI Film Tales</title>
+  <link rel="icon" href="favicon.ico" />
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet" />
+  <style>
+     {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    html {
+      scroll-behavior: smooth;
+    }
+    body {
+      font-family: 'Raleway', sans-serif;
+      background: #fff;
+      color: #222;
+    }
+    header {
+      background: linear-gradient(to right, #FFDEE9, #B5FFFC);
+      padding: 4rem 2rem 2rem;
+      text-align: center;
+    }
+    .logo {
+      width: 130px;
+      border-radius: 50%;
+      margin-bottom: 1rem;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    }
+    header h1 {
+      font-size: 3rem;
+      margin-bottom: 0.5rem;
+      color: #222;
+    }
+    header p {
+      font-size: 1.3rem;
+      color: #5e5e5e;
+    }
+    .button {
+      background-color: #0077cc;
+      color: white;
+      padding: 0.8rem 1.5rem;
+      font-size: 1rem;
+      border-radius: 25px;
+      margin-top: 1.5rem;
+      display: inline-block;
+      text-decoration: none;
+      transition: background-color 0.3s;
+    }
+    .button:hover {
+      background-color: #005fa3;
+    }
+    nav {
+      background: #f4f4f4;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 2rem;
+      padding: 1rem;
+      border-top: 1px solid #ddd;
+      border-bottom: 1px solid #ddd;
+    }
+    nav a {
+      text-decoration: none;
+      color: #333;
+      font-weight: 600;
+      transition: color 0.3s;
+    }
+    nav a:hover {
+      color: #0077cc;
+    }
+    .auto-scroll-wrapper {
+      overflow: hidden;
+      white-space: nowrap;
+  background: linear-gradient(to right, #f8e1b2, #a2c2e2);
+      border: 2px dashed #ff69b4;
+      border-radius: 10px;
+      margin: 1.5rem auto;
+      padding: 1rem 0;
+      max-width: 90%;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+    .auto-scroll {
+      display: inline-block;
+      padding-left: 100%;
+      animation: scroll-left 15s linear infinite;
+      font-size: 1.2rem;
+      color: #8e136c;
+    }
+    @keyframes scroll-left {
+      0% { transform: translateX(0%); }
+      100% { transform: translateX(-100%); }
+    }
+    .section {
+      padding: 4rem 2rem;
+      text-align: center;
+  line-height: 1.8;
+}
+    .video-container iframe {
+      width: 100%;
+      max-width: 720px;
+      height: 405px;
+      border-radius: 12px;
+      border: none;
+      margin: 1rem auto;
+    }
+    .about-section p {
+      font-size: 1rem;
+      line-height: 1.8;
+      max-width: 800px;
+      margin: 1.5rem auto;
+      color: #444;
+      background: #f7f7f7;
+      padding: 1.5rem;
+      border-radius: 12px;
+      text-align: justify;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+    }
+    .quote {
+      font-style: italic;
+      color: #555;
+      margin: 1rem auto;
+      max-width: 600px;
+    }
+#reviews {
+  background: linear-gradient(to right, #ffd1dc, #fff7e6);
+  color: #444;
+}
+    #contact a {
+      display: inline-block;
+      margin: 0.5rem 1rem;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+    #contact a:hover {
+      color: #e91e63;
+    }
+    footer {
+      background: linear-gradient(to right, #2c3e50, #16a085);
+      color: #fff;
+      text-align: center;
+      padding: 1.5rem;
+      font-size: 0.95rem;
+    }
+  </style>
+</head>
+<body>
+  <header data-aos="fade-down">
+    <img src="logo.jpg.jpg" alt="SAI Film Tales Logo" class="logo" />
+    <h1>SAI_Film_Tales</h1>
+    <p>🎬 Whispers of Love & Terror</p>
+    <a class="button" href="https://www.youtube.com/@SAI_Film_Tales" target="_blank">🎬 Watch Our Tales</a>
+    <p style="color: purple; margin-top: 1rem;">Our latest story blends tender romance with chilling mystery.</p>
+  </header>
+  <div class="auto-scroll-wrapper" data-aos="zoom-in">
+    <div class="auto-scroll">💀 Haunted dreams await... 🌹 Love meets mystery... 🎬 New episode every Sunday... 🖤 Dive into the shadows...</div>
+  </div>
+  <nav data-aos="fade-up">
+    <a href="#videos">Videos</a>
+    <a href="#about">About</a>
+    <a href="#reviews">Reviews</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <section class="section" id="videos">
+    <h2 data-aos="fade-right">👻 Romantic Thrills & Haunting Emotions</h2>
+    <p data-aos="fade-left">Discover a playlist where passion blooms in the midst of mystery and suspense.</p>
+    <div class="video-container" data-aos="zoom-in">
+      <iframe src="https://www.youtube.com/embed/videoseries?list=PLL5DqWsWTxZvyPlYNLRmrYGTEpQPCtlpD" allowfullscreen></iframe></div>
+    <h3 style="margin-top: 3rem;" data-aos="fade-up">📽️ Channel Trailer</h3>
+    <div class="video-container" data-aos="flip-left">
+      <iframe src="https://www.youtube.com/embed/3_ywtvhbYT4?si=wlVe4gDe39nHWWH3" allowfullscreen></iframe>
+    </div></section>
+<section class="about-section" id="about">
+    <h2 style="text-align:center;" data-aos="zoom-in">💙 About SAI Film Tales</h2>
+    <p data-aos="fade-up">SAI Film Tales is a creative space born out of a passion for horror, thriller, and mystery storytelling. It's not just a YouTube channel — it’s a universe of dark mysteries, chilling narratives, and cinematic horror designed to keep your spine tingling and your heart warm. Welcome to SAI Film Tales, where horror, mystery, and romance converge to create thrilling cinematic experiences. Explore our latest playlist on Romantic Thrills & Haunting Emotions and check out our Love & Mystery series.</p>
+    <p data-aos="fade-up">SAI Film Tales is more than just a YouTube channel — it’s a collaboration of heart, voice, and vision. Every story is lovingly shaped by Priyanka or <b>PRIYU</b>, who breathes life into the narrative through editing and direction. The soul of each tale is carried through the evocative voice of Santhiya or <b>SANDY</b>, whose narration brings characters alive and emotions to the surface.</p><p data-aos="fade-up">Together, we aim to create not just videos, but emotional journeys — where love, fear, and mystery dance together in the shadows. Each film is a whisper in the dark, inviting you to feel deeply and dream endlessly.</p>
+  </section><section class="section" id="reviews">
+    <h2 data-aos="fade-up">💬 What Our Viewers Say</h2>
+    <p class="quote" data-aos="fade-right">“This story gave me goosebumps... and tears. Beautiful and scary at once!”</p>
+    <p class="quote" data-aos="fade-left">“Your visuals are stunning! Waiting for more.”</p>
+    <p class="quote" data-aos="fade-right">“A masterpiece of emotion and horror.”</p>
+    <p class="quote" data-aos="fade-left">“Every video feels like a dream - dark, beautiful, unforgettable.”</p>
+    <p class="quote" data-aos="fade-right">“I came for the mystery, but stayed for the emotion.”</p>
+    <p class="quote" data-aos="fade-left">“Your stories speak straight to the soul. So real, so raw.”</p>
+  </section>
+  <section class="section" id="contact">
+    <h2 data-aos="zoom-in">💌 Write Me a Message</h2>
+    <p data-aos="fade-up">Have thoughts, feedback, or spooky stories? I’d love to hear from you!</p>
+    <a href="https://www.youtube.com/@SAI_Film_Tales" target="_blank">YouTube</a>
+    <a href="https://www.instagram.com/sivakarthikeyan_anneyy" target="_blank">Instagram</a>
+    <a href="mailto:priyusandy2609@gmail.com">Email</a>
+  </section>
+ <h2>
+  <footer>
+    With love and gratitude — Priyu & Sandy © SAI Film Tales
+  </footer>
+</h2>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+</body>
+</html>
